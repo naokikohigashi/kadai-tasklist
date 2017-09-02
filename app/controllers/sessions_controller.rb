@@ -20,6 +20,7 @@ class SessionsController < ApplicationController
     redirect_to root_url
   end
   
+ 
    private
 
   def login(email, password)
